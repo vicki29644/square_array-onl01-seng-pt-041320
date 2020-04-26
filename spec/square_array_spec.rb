@@ -1,11 +1,15 @@
-describe '#square_array' do
+def square square_array(array)
+ new_array = square
 
-  it 'does not call on collect/map or inject' do
-    numbers = [1,2,3]
-    expect(numbers).to_not receive(:collect)
-    expect(numbers).to_not receive(:map)
-    expect(numbers).to_not receive(:inject)
-    square_array(numbers)
+
+
+
+
+
+
+
+
+
   end
 
   it 'calls on each' do
