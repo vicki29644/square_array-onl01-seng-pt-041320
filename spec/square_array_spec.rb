@@ -1,4 +1,4 @@
-def square square_array (array)
+def square_array (array)
  new_array = []
  array.each {|i| new_array << i ** 2}
  new_array
@@ -7,17 +7,7 @@ def square square_array (array)
  
 
 
-
-
-
-
-
-
-
-
-  
-
- it 'calls on each' do
+it 'calls on each' do
     numbers = [1,2,3]
     expect(numbers).to receive(:each)
     square_array(numbers)
